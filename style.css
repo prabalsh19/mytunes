@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+}
+h1,h2{
+    margin: 0;
+}
+nav{
+    background: #333;
+    position: absolute;
+    
+    height: 3rem;
+    width: 100%;
+}
+ul{
+    display: inline;
+}
+.nav-item{
+    display: inline;
+    color: white;
+    float: left;
+    padding: 1rem 0;
+    padding-left: 1.5rem;
+    padding-right: 2rem;   
+   
+}
+
+.nav-item:hover{
+    background-color: grey;
+}
+
+.hero-sec{
+   background-color: green;
+   background-image: url(img/showcase.jpeg);
+   background-size: cover;
+   height: 100vh;
+   z-index: 0;
+   overflow: hidden;
+  
+}
+
+.hero-content{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30vh;
+}
+
+.hero-heading{
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+}
+.hero-h2{
+    font-size: 2rem;
+}
+.hero-para{
+    width: 80%;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-top: 2rem;
+}
