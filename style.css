@@ -114,7 +114,7 @@ ul{
     background-image: url(../img/section-bg.jpeg);
     text-align: center;
     background-size: cover;
-    height: 60vh;
+    padding: 2rem ;
     color: white;
 
     
@@ -181,4 +181,14 @@ ul{
     text-align:center ;
     padding: 2rem 0;
     color: white;
+}
+
+@media only screen and (max-width:768px) {
+    .footer{
+        display: none;
+    }
+    .gift-sec{
+        display: block;
+        width: 50%;
+    }
 }
