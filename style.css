@@ -66,7 +66,8 @@ ul{
 }
 
 .second-sec{
-    padding: 2rem 5rem;
+    
+    padding: 3rem ;
     text-align: center;
     color: white;
     background-color: var(--grey);
@@ -78,7 +79,7 @@ ul{
     text-decoration: none;
     padding: 1rem;
     font-size: 1rem;
-    
+   
 }
 
 .trial-btn:hover{
@@ -86,7 +87,9 @@ ul{
 }
 
 .second-sec-para{
-    width: 100%;
+    
+    margin: 2rem auto;
+    
 }
 
 .third-sec{
@@ -100,7 +103,7 @@ ul{
 }
 .third-sec-para{
     width: 100%;
-   
+    margin: 2rem auto;
     font-size: 1.5rem;
 }
 
@@ -117,12 +120,13 @@ ul{
     background-size: cover;
     padding: 2rem ;
     color: white;
-
+    min-height:50vh;
     
 }
 .forth-sec-heading{
     font-size: 2rem;
-    padding-top: 15vh;
+    margin: auto;
+    margin-top: 3rem;
 }
 
 .forth-sec-para{
@@ -153,6 +157,8 @@ ul{
 .redeem-btn{
     color: black;
     text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
 }
 
 .footer{
@@ -192,6 +198,8 @@ ul{
         display: block;
        margin: 0 1rem;
     }
-   
-    body{margin: auto;}
+   .nav-item, nav{
+       display: none;
+   }
+    body{margin: auto ; }
 }
