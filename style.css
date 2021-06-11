@@ -86,7 +86,7 @@ ul{
 }
 
 .second-sec-para{
-    margin: 3rem;
+    margin: 2rem 3rem;
 }
 
 .third-sec{
@@ -191,5 +191,6 @@ ul{
         display: block;
         width: 50%;
     }
-    
+   
+    body{margin: auto;}
 }
