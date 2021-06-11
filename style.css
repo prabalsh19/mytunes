@@ -86,7 +86,7 @@ ul{
 }
 
 .second-sec-para{
-    width: 90%;
+    width: 100%;
 }
 
 .third-sec{
@@ -99,7 +99,7 @@ ul{
     margin-bottom: 2rem;
 }
 .third-sec-para{
-    width: 90%;
+    width: 100%;
    
     font-size: 1.5rem;
 }
@@ -127,7 +127,7 @@ ul{
 
 .forth-sec-para{
     text-align: center;
-    width: 90%;
+    width: 100%;
     margin: auto;
     margin-top: 2rem;
     font-size: 1.5rem;
@@ -190,7 +190,7 @@ ul{
     }
     .gift-sec{
         display: block;
-        width: 50%;
+       margin: 0 1rem;
     }
    
     body{margin: auto;}
