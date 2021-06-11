@@ -86,7 +86,7 @@ ul{
 }
 
 .second-sec-para{
-    margin: 2rem 3rem;
+    width: 90%;
 }
 
 .third-sec{
@@ -99,7 +99,8 @@ ul{
     margin-bottom: 2rem;
 }
 .third-sec-para{
-    padding: 1rem 5rem;
+    width: 90%;
+   
     font-size: 1.5rem;
 }
 
