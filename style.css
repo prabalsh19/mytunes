@@ -153,3 +153,32 @@ ul{
     color: black;
     text-decoration: none;
 }
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem 5rem;
+    background-color:#252529;
+    column-gap: 20px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.footer a:hover{
+    color: yellow;
+}
+
+.footer h3{
+    color: white;
+    margin: 0;
+}
+
+.footer-end{
+    background-color: var(--grey);
+    text-align:center ;
+    padding: 2rem 0;
+    color: white;
+}
