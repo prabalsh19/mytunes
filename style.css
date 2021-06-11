@@ -202,4 +202,10 @@ ul{
        display: none;
    }
     body{margin: auto ; }
+    .hero-content{
+        top:10vh
+    }
+    .hero-sec{
+        90vh
+    }
 }
